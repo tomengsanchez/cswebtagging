@@ -147,10 +147,9 @@ Text=Date tagged
   
 [Field]
 Name=TYPE_OF_STRUCTURE
-Position=365,207,775,227
+Position=365,207,576,227
 Item=TYPE_OF_STRUCTURE,TAGGING_DICT
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
+DataCaptureType=RadioButton
 Form=2
   
 [Text]
