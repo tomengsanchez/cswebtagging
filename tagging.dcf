@@ -87,8 +87,25 @@
             {
               "name": "TYPE_OF_STRUCTURE", 
               "labels": [ { "text": "Type of Structure" } ], 
-              "contentType": "alpha", 
-              "length": 50
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "TYPE_OF_STRUCTURE_VS1", 
+                  "labels": [ { "text": "Type of Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Business" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Residential" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
               "name": "STRUCTURE_USAGE", 
