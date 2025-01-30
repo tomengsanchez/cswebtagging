@@ -50,6 +50,63 @@
               "labels": [ { "text": "Name of Structure Owner" } ], 
               "contentType": "alpha", 
               "length": 50
+            }, 
+            {
+              "name": "STRUCTURE_TAGGING_NO", 
+              "labels": [ { "text": "Structure Tagging No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "STRUCTURE_OWNER_S_CONTACT_NUMBERS", 
+              "labels": [ { "text": "Structure Owner's Contact Numbers" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LOCATION_OF_AFFECTED_STRUCTURE_GPS_COORDINATES", 
+              "labels": [ { "text": "Location of Affected Structure/GPS Coordinates" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "NAME_OF_OWNER_S_REPRESENTATIVE", 
+              "labels": [ { "text": "Name of Owner's Representative" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "DATE_TAGGED", 
+              "labels": [ { "text": "Date tagged" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TYPE_OF_STRUCTURE", 
+              "labels": [ { "text": "Type of Structure" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "STRUCTURE_USAGE", 
+              "labels": [ { "text": "Structure Usage" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "PHOTOGRAPHS_OF_AFFECTED_STRUCTURE_OWNER", 
+              "labels": [ { "text": "Photographs of Affected Structure/Owner" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "SURVEYOR_NAME", 
+              "labels": [ { "text": "Surveyor Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
             }
           ]
         }

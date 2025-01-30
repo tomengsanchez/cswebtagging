@@ -13,7 +13,7 @@ File=.\tagging.dcf
 Name=FORM000
 Label=(Id Items)
 Level=1
-Size=937,300
+Size=1597,300
   
 Item=TAGGING_ID
   
@@ -23,9 +23,18 @@ Item=TAGGING_ID
 Name=FORM001
 Label=Personal Info
 Level=1
-Size=937,300
+Size=1597,330
   
 Item=NAME_OF_STRUCTURE_OWNER
+Item=STRUCTURE_TAGGING_NO
+Item=STRUCTURE_OWNER_S_CONTACT_NUMBERS
+Item=LOCATION_OF_AFFECTED_STRUCTURE_GPS_COORDINATES
+Item=NAME_OF_OWNER_S_REPRESENTATIVE
+Item=DATE_TAGGED
+Item=TYPE_OF_STRUCTURE
+Item=STRUCTURE_USAGE
+Item=PHOTOGRAPHS_OF_AFFECTED_STRUCTURE_OWNER
+Item=SURVEYOR_NAME
   
 [EndForm]
   
@@ -42,9 +51,9 @@ Max=1
   
 [Field]
 Name=TAGGING_ID
-Position=141,27,352,47
+Position=141,27,271,47
 Item=TAGGING_ID,TAGGING_DICT
-UseEnterKey=Yes
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=1
   
@@ -63,15 +72,129 @@ Max=1
   
 [Field]
 Name=NAME_OF_STRUCTURE_OWNER
-Position=225,27,926,47
+Position=365,27,775,47
 Item=NAME_OF_STRUCTURE_OWNER,TAGGING_DICT
-UseEnterKey=Yes
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=2
   
 [Text]
 Position=50,30,211,46
 Text=Name of Structure Owner
+ 
+  
+[Field]
+Name=STRUCTURE_TAGGING_NO
+Position=365,57,576,77
+Item=STRUCTURE_TAGGING_NO,TAGGING_DICT
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,60,189,76
+Text=Structure Tagging No.
+ 
+  
+[Field]
+Name=STRUCTURE_OWNER_S_CONTACT_NUMBERS
+Position=365,87,576,107
+Item=STRUCTURE_OWNER_S_CONTACT_NUMBERS,TAGGING_DICT
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,90,275,106
+Text=Structure Owner's Contact Numbers
+ 
+  
+[Field]
+Name=LOCATION_OF_AFFECTED_STRUCTURE_GPS_COORDINATES
+Position=365,117,775,137
+Item=LOCATION_OF_AFFECTED_STRUCTURE_GPS_COORDINATES,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,120,351,136
+Text=Location of Affected Structure/GPS Coordinates
+ 
+  
+[Field]
+Name=NAME_OF_OWNER_S_REPRESENTATIVE
+Position=365,147,775,167
+Item=NAME_OF_OWNER_S_REPRESENTATIVE,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,150,257,166
+Text=Name of Owner's Representative
+ 
+  
+[Field]
+Name=DATE_TAGGED
+Position=365,177,576,197
+Item=DATE_TAGGED,TAGGING_DICT
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,180,127,196
+Text=Date tagged
+ 
+  
+[Field]
+Name=TYPE_OF_STRUCTURE
+Position=365,207,775,227
+Item=TYPE_OF_STRUCTURE,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,210,159,226
+Text=Type of Structure
+ 
+  
+[Field]
+Name=STRUCTURE_USAGE
+Position=365,237,775,257
+Item=STRUCTURE_USAGE,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,240,151,256
+Text=Structure Usage
+ 
+  
+[Field]
+Name=PHOTOGRAPHS_OF_AFFECTED_STRUCTURE_OWNER
+Position=365,267,775,287
+Item=PHOTOGRAPHS_OF_AFFECTED_STRUCTURE_OWNER,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,270,310,286
+Text=Photographs of Affected Structure/Owner
+ 
+  
+[Field]
+Name=SURVEYOR_NAME
+Position=365,297,775,317
+Item=SURVEYOR_NAME,TAGGING_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,300,148,316
+Text=Surveyor Name
  
 [EndGroup]
   
