@@ -1,0 +1,77 @@
+﻿[FormFile]
+Version=CSPro 8.0
+Name=TAGGING_FF
+Label=tagging
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\tagging.dcf
+  
+[Form]
+Name=FORM000
+Label=(Id Items)
+Level=1
+Size=937,300
+  
+Item=TAGGING_ID
+  
+[EndForm]
+  
+[Form]
+Name=FORM001
+Label=Personal Info
+Level=1
+Size=937,300
+  
+Item=NAME_OF_STRUCTURE_OWNER
+  
+[EndForm]
+  
+[Level]
+Name=TAGGING_LEVEL
+Label=tagging Level
+  
+[Group]
+Required=Yes
+Name=IDS0_FORM
+Label=(Id Items)
+Form=1
+Max=1
+  
+[Field]
+Name=TAGGING_ID
+Position=141,27,352,47
+Item=TAGGING_ID,TAGGING_DICT
+UseEnterKey=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=50,30,127,46
+Text=TAGGING ID
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=TAGGING_REC_FORM
+Label=Personal Info
+Form=2
+Max=1
+  
+[Field]
+Name=NAME_OF_STRUCTURE_OWNER
+Position=225,27,926,47
+Item=NAME_OF_STRUCTURE_OWNER,TAGGING_DICT
+UseEnterKey=Yes
+DataCaptureType=TextBox
+Form=2
+  
+[Text]
+Position=50,30,211,46
+Text=Name of Structure Owner
+ 
+[EndGroup]
+  

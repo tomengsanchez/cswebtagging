@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Entry
+
+[Files]
+Application=.\tagging.ent
+InputData=.\tag.csdb
+Paradata=.\tagging.cslog

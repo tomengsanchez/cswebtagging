@@ -1,0 +1,59 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "TAGGING_DICT", 
+  "labels": [ { "text": "tagging" } ], 
+  "security": {
+    "allowDataViewerModifications": true, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "ef78e1130c0860a9460dbe6ef6111cbff8a17731b1fa6fbb1020033ecf61cee1"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": false
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "TAGGING_LEVEL", 
+      "labels": [ { "text": "tagging Level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "TAGGING_ID", 
+            "labels": [ { "text": "TAGGING ID" } ], 
+            "contentType": "alpha", 
+            "start": 2, 
+            "length": 15
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "TAGGING_REC", 
+          "labels": [ { "text": "Personal Info" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "NAME_OF_STRUCTURE_OWNER", 
+              "labels": [ { "text": "Name of Structure Owner" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
